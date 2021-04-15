@@ -15,11 +15,11 @@ C:/Users/Usuario/Documents/GitHub/TFC/TFC
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60249
+50487
 Successfully changed project path to: C:/Users/Usuario/Documents/GitHub/TFC/TFC
 C:/Users/Usuario/Documents/GitHub/TFC/TFC
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 20.98 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 22.86 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 [Subsystems] Discovering subsystems at path D:/Trabajo/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
@@ -30,94 +30,86 @@ Direct3D:
     Renderer: NVIDIA GeForce GTX 960 (ID=0x1401)
     Vendor:   
     VRAM:     4053 MB
-    Driver:   27.21.14.6192
+    Driver:   27.21.14.6589
 Initialize mono
 Mono path[0] = 'D:/Trabajo/2020.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Trabajo/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Trabajo/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56852
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56556
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Trabajo/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000860 seconds.
+Registered in 0.000881 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 18.59 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 24.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.078 seconds
+- Completed reload, in  1.217 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000596 seconds.
+Registered in 0.000582 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 21.36 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.641 seconds
+- Completed reload, in  0.870 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.2 MB.
-System memory in use after: 70.3 MB.
+Unloading 1303 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.5 MB.
+System memory in use after: 82.4 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1578.
-Total: 1.622700 ms (FindLiveObjects: 0.142500 ms CreateObjectMapping: 0.045200 ms MarkObjects: 1.358400 ms  DeleteObjects: 0.075700 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/References
-  artifactKey: Guid(6d5c8afa5f7d2f64595e063b543c2e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/References using Guid(6d5c8afa5f7d2f64595e063b543c2e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f61cae0d03779b056b41a0d1fa5ca1') in 0.007180 seconds
-  Import took 0.008984 seconds .
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 1776.
+Total: 2.388500 ms (FindLiveObjects: 0.224200 ms CreateObjectMapping: 0.136300 ms MarkObjects: 1.855400 ms  DeleteObjects: 0.171200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.129608 seconds.
-  path: Assets/References/referencia sabana 4rio.jpeg
-  artifactKey: Guid(bc41fdedd67dd4d4b97d3d1db2ff6c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/References/referencia sabana 4rio.jpeg using Guid(bc41fdedd67dd4d4b97d3d1db2ff6c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf88fd4221906d5071b5745124f712d') in 0.051850 seconds
-  Import took 0.053621 seconds .
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_canyon02.brush
+  artifactKey: Guid(7ddc1e59f6e82cc4693b55b0badb4aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_canyon02.brush using Guid(7ddc1e59f6e82cc4693b55b0badb4aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c73e63de3adc914dd21326296d9a4299') in 0.132894 seconds
+  Import took 0.135137 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/References/sabana referencia3.jpg
-  artifactKey: Guid(8d36ee2c3f550284a8c91e82780ec1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/References/sabana referencia3.jpg using Guid(8d36ee2c3f550284a8c91e82780ec1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adb927d8d31b0576962f85615acdac4b') in 0.012814 seconds
-  Import took 0.014272 seconds .
+  Time since last request: 76.707360 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_mountain04.brush
+  artifactKey: Guid(84399f7e9c8b199478532ded97f1ed9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_mountain04.brush using Guid(84399f7e9c8b199478532ded97f1ed9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f03f202673561db612b90488448e442e') in 0.026313 seconds
+  Import took 0.028536 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/References/referencia sabana2rio.jpg
-  artifactKey: Guid(9aa26b1c735566244b33979e8ecdd2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/References/referencia sabana2rio.jpg using Guid(9aa26b1c735566244b33979e8ecdd2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c7d7f505ea7e84be55ff9c861300fd8') in 0.008329 seconds
-  Import took 0.009812 seconds .
+  Time since last request: 221.921624 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/dirt_albedo.tif
+  artifactKey: Guid(7f3df385222f5b1428f6a156037deb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/dirt_albedo.tif using Guid(7f3df385222f5b1428f6a156037deb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e7b3eab806d0b01fa1c2b9fca633d23') in 0.109021 seconds
+  Import took 0.111935 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/References/referencia sabana1.jpg
-  artifactKey: Guid(301a1326170139347816a13867003ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/References/referencia sabana1.jpg using Guid(301a1326170139347816a13867003ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f2847ea292934284ee2859dd1f08405') in 0.008193 seconds
-  Import took 0.009678 seconds .
+  Time since last request: 11.926369 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/moss_albedo.tif
+  artifactKey: Guid(43b54d39e0a4c4d47bef645abec127f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/moss_albedo.tif using Guid(43b54d39e0a4c4d47bef645abec127f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8cde25e730e2a123e1d3153e496e5b') in 0.015855 seconds
+  Import took 0.019413 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.658980 seconds.
-  path: Assets/References/referencia sabana 2.webp
-  artifactKey: Guid(9403905816ebcdd4c9a7af82b105d4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/References/referencia sabana 2.webp using Guid(9403905816ebcdd4c9a7af82b105d4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e505de4e682c067022ef3764ad4b0e92') in 0.010509 seconds
-  Import took 0.012687 seconds .
+  Time since last request: 0.002697 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/moss_albedo.tif
+  artifactKey: Guid(43b54d39e0a4c4d47bef645abec127f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/moss_albedo.tif using Guid(43b54d39e0a4c4d47bef645abec127f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8cde25e730e2a123e1d3153e496e5b') in 0.013236 seconds
+  Import took 0.016246 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
