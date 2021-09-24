@@ -15,11 +15,11 @@ C:/Users/Usuario/Documents/GitHub/TFC/TFC
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52931
+49695
 Successfully changed project path to: C:/Users/Usuario/Documents/GitHub/TFC/TFC
 C:/Users/Usuario/Documents/GitHub/TFC/TFC
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 45.76 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 46.80 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 [Subsystems] Discovering subsystems at path D:/Trabajo/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
@@ -36,90 +36,386 @@ Initialize mono
 Mono path[0] = 'D:/Trabajo/2020.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Trabajo/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Trabajo/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56344
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56608
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Trabajo/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001602 seconds.
+Registered in 0.000878 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 60.76 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 49.85 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.457 seconds
+- Completed reload, in  1.152 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001968 seconds.
+Registered in 0.001349 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 47.93 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 47.62 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.145 seconds
+- Completed reload, in  1.104 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3281 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 167.3 MB.
-System memory in use after: 167.4 MB.
+System memory in use before: 167.6 MB.
+System memory in use after: 167.7 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3764.
-Total: 2.305700 ms (FindLiveObjects: 0.288200 ms CreateObjectMapping: 0.197300 ms MarkObjects: 1.638100 ms  DeleteObjects: 0.181300 ms)
+Total: 2.314900 ms (FindLiveObjects: 0.268400 ms CreateObjectMapping: 0.167400 ms MarkObjects: 1.705000 ms  DeleteObjects: 0.173200 ms)
 
 ========================================================================
 Received Import Request.
   path: Assets/WaterMat.mat
   artifactKey: Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WaterMat.mat using Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27656c218ab75714e4b76fb4504597ec') in 0.188778 seconds
-  Import took 0.193361 seconds .
+Start importing Assets/WaterMat.mat using Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e207fcbe32432eff40ea96583271865f') in 0.208868 seconds
+  Import took 0.213425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 489.385598 seconds.
+  path: Assets/WaterMat.mat
+  artifactKey: Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WaterMat.mat using Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7226fc0d0371c6b44f652fddb7444322') in 0.013417 seconds
+  Import took 0.018945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 130.514989 seconds.
+  path: Assets/WaterMat.mat
+  artifactKey: Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WaterMat.mat using Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35eca43df272b95479b1f1794987cb65') in 0.016308 seconds
+  Import took 0.022590 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001317 seconds.
+Registered in 0.001267 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.381 seconds
+- Completed reload, in  1.014 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 162.9 MB.
-System memory in use after: 163.1 MB.
+System memory in use before: 163.3 MB.
+System memory in use after: 163.4 MB.
 
 Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3846.
-Total: 5.506500 ms (FindLiveObjects: 0.585600 ms CreateObjectMapping: 0.766300 ms MarkObjects: 3.713600 ms  DeleteObjects: 0.437700 ms)
+Total: 4.911900 ms (FindLiveObjects: 0.613200 ms CreateObjectMapping: 0.338400 ms MarkObjects: 3.609600 ms  DeleteObjects: 0.349000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 302.200075 seconds.
+  Time since last request: 105.007315 seconds.
   path: Assets/WaterMat.mat
   artifactKey: Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WaterMat.mat using Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c099691c2034b72adbba24ef22c70c') in 0.140997 seconds
-  Import took 0.145661 seconds .
+Start importing Assets/WaterMat.mat using Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e1715320ee74b66077c7b471b195640') in 0.164633 seconds
+  Import took 0.169575 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 273.357963 seconds.
+  Time since last request: 155.160719 seconds.
   path: Assets/WaterMat.mat
   artifactKey: Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WaterMat.mat using Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a88e00693465f46f9da538aad64efb3b') in 0.013312 seconds
-  Import took 0.020602 seconds .
+Start importing Assets/WaterMat.mat using Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5933a7ad1d3d39935b2f5a052b8cef74') in 0.015515 seconds
+  Import took 0.020240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.159102 seconds.
+  path: Assets/WaterMat.mat
+  artifactKey: Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WaterMat.mat using Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd8ab2c83f6c5da0d054a496207d4cab') in 0.010374 seconds
+  Import took 0.015366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.139469 seconds.
+  path: Assets/WaterMat.mat
+  artifactKey: Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WaterMat.mat using Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6158ceb10513d375dfd026c083788ae8') in 0.009797 seconds
+  Import took 0.014609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.502236 seconds.
+  path: Assets/WaterMat.mat
+  artifactKey: Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WaterMat.mat using Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce34390579420194b44b2b0e05d268b') in 0.009367 seconds
+  Import took 0.014308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 268.958026 seconds.
+  path: Assets/WaterMat.mat
+  artifactKey: Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WaterMat.mat using Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0365af74927bb7b8f8e83db382d79b75') in 0.012409 seconds
+  Import took 0.017952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 528.496838 seconds.
+  path: Assets/water_normal_main.png
+  artifactKey: Guid(c053bca0d8b8ae6479a6b1dafbf89ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/water_normal_main.png using Guid(c053bca0d8b8ae6479a6b1dafbf89ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1541f0e11c287ad1c86f11d09cdb915') in 0.024581 seconds
+  Import took 0.031353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/water_normal_secondary.jpg
+  artifactKey: Guid(c7c919f8c93b46a439a6d2dc7e6c7a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/water_normal_secondary.jpg using Guid(c7c919f8c93b46a439a6d2dc7e6c7a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e9014e78f4d2cd79c860f10f926952c') in 0.012590 seconds
+  Import took 0.016750 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001875 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.444 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3122 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.5 MB.
+System memory in use after: 163.6 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3886.
+Total: 3.530900 ms (FindLiveObjects: 0.304300 ms CreateObjectMapping: 0.268500 ms MarkObjects: 2.703900 ms  DeleteObjects: 0.253000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 121.723217 seconds.
+  path: Assets/water_normal_main.png
+  artifactKey: Guid(c053bca0d8b8ae6479a6b1dafbf89ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/water_normal_main.png using Guid(c053bca0d8b8ae6479a6b1dafbf89ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846b41d489fbfd2c52e69beddd8a7444') in 0.053340 seconds
+  Import took 0.058010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/water_normal_secondary.jpg
+  artifactKey: Guid(c7c919f8c93b46a439a6d2dc7e6c7a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/water_normal_secondary.jpg using Guid(c7c919f8c93b46a439a6d2dc7e6c7a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82c1434da7cdf3022cbccb5e0759cc23') in 0.007867 seconds
+  Import took 0.011971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.561224 seconds.
+  path: Assets/WaterMat.mat
+  artifactKey: Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WaterMat.mat using Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9134a9d29aa8beaa6fc5620cd8769ec8') in 0.120857 seconds
+  Import took 0.125416 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001564 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.983 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3122 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.7 MB.
+System memory in use after: 163.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3925.
+Total: 2.847100 ms (FindLiveObjects: 0.438800 ms CreateObjectMapping: 0.210100 ms MarkObjects: 2.013000 ms  DeleteObjects: 0.184100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.627785 seconds.
+  path: Assets/WaterMat.mat
+  artifactKey: Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WaterMat.mat using Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0797d38536011d26e676e4a803af5ca2') in 0.131459 seconds
+  Import took 0.136221 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001454 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.003 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3122 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.8 MB.
+System memory in use after: 163.9 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3964.
+Total: 2.500800 ms (FindLiveObjects: 0.344400 ms CreateObjectMapping: 0.151700 ms MarkObjects: 1.828900 ms  DeleteObjects: 0.175100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001258 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.989 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3122 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.8 MB.
+System memory in use after: 163.9 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3967.
+Total: 4.064600 ms (FindLiveObjects: 0.915700 ms CreateObjectMapping: 0.383500 ms MarkObjects: 2.537000 ms  DeleteObjects: 0.226600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001305 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.377 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3122 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.8 MB.
+System memory in use after: 163.9 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3970.
+Total: 2.725400 ms (FindLiveObjects: 0.334700 ms CreateObjectMapping: 0.166900 ms MarkObjects: 2.041700 ms  DeleteObjects: 0.181400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 613.290346 seconds.
+  path: Assets/water_normal_main.png
+  artifactKey: Guid(c053bca0d8b8ae6479a6b1dafbf89ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/water_normal_main.png using Guid(c053bca0d8b8ae6479a6b1dafbf89ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa7b39fbbba5a6b79148c86cc7591371') in 0.043286 seconds
+  Import took 0.051308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.591213 seconds.
+  path: Assets/WaterMat.mat
+  artifactKey: Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WaterMat.mat using Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '618ae76ac817957442ac135f5f173273') in 0.124988 seconds
+  Import took 0.130515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.310684 seconds.
+  path: Assets/WaterMat.mat
+  artifactKey: Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WaterMat.mat using Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '185c07f2047e5c185497f3b49c79bb07') in 0.014424 seconds
+  Import took 0.019535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 102.157223 seconds.
+  path: Assets/WaterMat.mat
+  artifactKey: Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WaterMat.mat using Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9cc30ae57d0a0c6230e4b878120bda6') in 0.009635 seconds
+  Import took 0.014818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017794 seconds.
+  path: Assets/WaterMat.mat
+  artifactKey: Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WaterMat.mat using Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9cc30ae57d0a0c6230e4b878120bda6') in 0.009872 seconds
+  Import took 0.014444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 222.912832 seconds.
+  path: Assets/WaterMat.mat
+  artifactKey: Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WaterMat.mat using Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '248bc497ec15945c47de996c0553db62') in 0.012652 seconds
+  Import took 0.018726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 223.871079 seconds.
+  path: Assets/WaterMat.mat
+  artifactKey: Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WaterMat.mat using Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '037a97caa2e09ce8fe801823f021b543') in 0.014527 seconds
+  Import took 0.020478 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001522 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.987 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3122 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.0 MB.
+System memory in use after: 164.1 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 4009.
+Total: 2.830600 ms (FindLiveObjects: 0.336700 ms CreateObjectMapping: 0.170400 ms MarkObjects: 2.134300 ms  DeleteObjects: 0.188300 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -15,11 +15,11 @@ C:/Users/Usuario/Documents/GitHub/TFC/TFC
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49695
+51124
 Successfully changed project path to: C:/Users/Usuario/Documents/GitHub/TFC/TFC
 C:/Users/Usuario/Documents/GitHub/TFC/TFC
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 46.80 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 45.89 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 [Subsystems] Discovering subsystems at path D:/Trabajo/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
@@ -30,374 +30,486 @@ Direct3D:
     Renderer: NVIDIA GeForce GTX 960 (ID=0x1401)
     Vendor:   
     VRAM:     4053 MB
-    Driver:   30.0.14.7196
+    Driver:   30.0.14.7212
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
 Mono path[0] = 'D:/Trabajo/2020.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Trabajo/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Trabajo/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56608
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56792
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Trabajo/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000878 seconds.
+Registered in 0.000909 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 49.85 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 44.81 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.152 seconds
+- Completed reload, in  1.194 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001349 seconds.
+Registered in 0.001350 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 47.62 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 46.35 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.104 seconds
+- Completed reload, in  1.062 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3281 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 167.6 MB.
-System memory in use after: 167.7 MB.
+System memory in use before: 168.0 MB.
+System memory in use after: 168.1 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3764.
-Total: 2.314900 ms (FindLiveObjects: 0.268400 ms CreateObjectMapping: 0.167400 ms MarkObjects: 1.705000 ms  DeleteObjects: 0.173200 ms)
+Total: 2.746300 ms (FindLiveObjects: 0.505400 ms CreateObjectMapping: 0.285200 ms MarkObjects: 1.761200 ms  DeleteObjects: 0.193200 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/WaterMat.mat
-  artifactKey: Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WaterMat.mat using Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e207fcbe32432eff40ea96583271865f') in 0.208868 seconds
-  Import took 0.213425 seconds .
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(3a05ffd06fe3f0a4aa19be4f6a56fece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(3a05ffd06fe3f0a4aa19be4f6a56fece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b32710bc95f8f0dfbfd2155267a7a6da') in 0.056565 seconds
+  Import took 0.061767 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 489.385598 seconds.
-  path: Assets/WaterMat.mat
-  artifactKey: Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WaterMat.mat using Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7226fc0d0371c6b44f652fddb7444322') in 0.013417 seconds
-  Import took 0.018945 seconds .
+  Time since last request: 316.336575 seconds.
+  path: Assets/Prefabs/River.prefab
+  artifactKey: Guid(0f8bfc8839ee9e74fb658201c7480a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/River.prefab using Guid(0f8bfc8839ee9e74fb658201c7480a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c98641652ff647836aa4e484a0e0072') in 0.180713 seconds
+  Import took 0.186466 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 130.514989 seconds.
-  path: Assets/WaterMat.mat
-  artifactKey: Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WaterMat.mat using Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35eca43df272b95479b1f1794987cb65') in 0.016308 seconds
-  Import took 0.022590 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001267 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.014 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 163.3 MB.
-System memory in use after: 163.4 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3846.
-Total: 4.911900 ms (FindLiveObjects: 0.613200 ms CreateObjectMapping: 0.338400 ms MarkObjects: 3.609600 ms  DeleteObjects: 0.349000 ms)
+  Time since last request: 16.014599 seconds.
+  path: Assets/Shaders
+  artifactKey: Guid(35af616e56162a04bb1b2fa5c22cb902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders using Guid(35af616e56162a04bb1b2fa5c22cb902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda444b2902d23c23acdc2c565d833e2') in 0.005583 seconds
+  Import took 0.011066 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 105.007315 seconds.
-  path: Assets/WaterMat.mat
-  artifactKey: Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WaterMat.mat using Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e1715320ee74b66077c7b471b195640') in 0.164633 seconds
-  Import took 0.169575 seconds .
+  Time since last request: 0.000661 seconds.
+  path: Assets/Shaders
+  artifactKey: Guid(35af616e56162a04bb1b2fa5c22cb902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders using Guid(35af616e56162a04bb1b2fa5c22cb902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda444b2902d23c23acdc2c565d833e2') in 0.001792 seconds
+  Import took 0.008182 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 155.160719 seconds.
-  path: Assets/WaterMat.mat
-  artifactKey: Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WaterMat.mat using Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5933a7ad1d3d39935b2f5a052b8cef74') in 0.015515 seconds
-  Import took 0.020240 seconds .
+  Time since last request: 37.637090 seconds.
+  path: Assets/Textures/River
+  artifactKey: Guid(043e0f4cec9cb6947920e261a0b8cb02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/River using Guid(043e0f4cec9cb6947920e261a0b8cb02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39a67aca705d20215afba439c2e8fed9') in 0.001967 seconds
+  Import took 0.007526 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 60.159102 seconds.
-  path: Assets/WaterMat.mat
-  artifactKey: Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WaterMat.mat using Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd8ab2c83f6c5da0d054a496207d4cab') in 0.010374 seconds
-  Import took 0.015366 seconds .
+  Time since last request: 4.779828 seconds.
+  path: Assets/Models
+  artifactKey: Guid(9a55fbc1f532db646b5600a8e552ed56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(9a55fbc1f532db646b5600a8e552ed56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00daf502904b2f05d6ed1446a3acc380') in 0.006778 seconds
+  Import took 0.011809 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 34.139469 seconds.
-  path: Assets/WaterMat.mat
-  artifactKey: Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WaterMat.mat using Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6158ceb10513d375dfd026c083788ae8') in 0.009797 seconds
-  Import took 0.014609 seconds .
+  Time since last request: 4.703017 seconds.
+  path: Assets/Terrain
+  artifactKey: Guid(4d2a49d29f4491e4980d646f2d9eada9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain using Guid(4d2a49d29f4491e4980d646f2d9eada9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f731637e84fa1f9ecc16d06a1d06601') in 0.007892 seconds
+  Import took 0.012330 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 53.502236 seconds.
-  path: Assets/WaterMat.mat
-  artifactKey: Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WaterMat.mat using Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce34390579420194b44b2b0e05d268b') in 0.009367 seconds
-  Import took 0.014308 seconds .
+  Time since last request: 0.999968 seconds.
+  path: Assets/Terrain Assets
+  artifactKey: Guid(6bfcb82a7ccd19f488861526aa9ed792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Assets using Guid(6bfcb82a7ccd19f488861526aa9ed792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38527dd6c2577d7a3a0c0fe8cc0c6272') in 0.005838 seconds
+  Import took 0.010388 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 268.958026 seconds.
-  path: Assets/WaterMat.mat
-  artifactKey: Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WaterMat.mat using Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0365af74927bb7b8f8e83db382d79b75') in 0.012409 seconds
-  Import took 0.017952 seconds .
+  Time since last request: 2.953926 seconds.
+  path: Assets/Terrain Assets/Terrains
+  artifactKey: Guid(cc472d4189e17094ea6e1718cd4f08df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Assets/Terrains using Guid(cc472d4189e17094ea6e1718cd4f08df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a25ec7e7338c089250ae3821be3ea91') in 0.005820 seconds
+  Import took 0.010527 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 528.496838 seconds.
-  path: Assets/water_normal_main.png
-  artifactKey: Guid(c053bca0d8b8ae6479a6b1dafbf89ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/water_normal_main.png using Guid(c053bca0d8b8ae6479a6b1dafbf89ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1541f0e11c287ad1c86f11d09cdb915') in 0.024581 seconds
-  Import took 0.031353 seconds .
+  Time since last request: 2.198689 seconds.
+  path: Assets/Terrain/Terrain_0_0_efaeb466-5ab0-40a4-9285-af9a434281cc.asset
+  artifactKey: Guid(49ebdcd16fc55794caae228d2ea79344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Terrain_0_0_efaeb466-5ab0-40a4-9285-af9a434281cc.asset using Guid(49ebdcd16fc55794caae228d2ea79344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c2a93168a03c1c65f42dbfcb85a284') in 0.008805 seconds
+  Import took 0.013111 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/water_normal_secondary.jpg
-  artifactKey: Guid(c7c919f8c93b46a439a6d2dc7e6c7a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/water_normal_secondary.jpg using Guid(c7c919f8c93b46a439a6d2dc7e6c7a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e9014e78f4d2cd79c860f10f926952c') in 0.012590 seconds
-  Import took 0.016750 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001875 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.444 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 163.5 MB.
-System memory in use after: 163.6 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3886.
-Total: 3.530900 ms (FindLiveObjects: 0.304300 ms CreateObjectMapping: 0.268500 ms MarkObjects: 2.703900 ms  DeleteObjects: 0.253000 ms)
+  Time since last request: 25.619304 seconds.
+  path: Assets/Terrain Assets/Terrain
+  artifactKey: Guid(a8e6042d4b2f4f04e9e30a243f758ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Assets/Terrain using Guid(a8e6042d4b2f4f04e9e30a243f758ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0078559774d151181dd3726aed810c9a') in 0.003808 seconds
+  Import took 0.010102 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 121.723217 seconds.
-  path: Assets/water_normal_main.png
-  artifactKey: Guid(c053bca0d8b8ae6479a6b1dafbf89ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/water_normal_main.png using Guid(c053bca0d8b8ae6479a6b1dafbf89ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846b41d489fbfd2c52e69beddd8a7444') in 0.053340 seconds
-  Import took 0.058010 seconds .
+  Time since last request: 25.479115 seconds.
+  path: Assets/Terrain/Sabana.asset
+  artifactKey: Guid(49ebdcd16fc55794caae228d2ea79344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Sabana.asset using Guid(49ebdcd16fc55794caae228d2ea79344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f0fb875a2a4e91b209ee1523905c91e') in 0.011672 seconds
+  Import took 0.017767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000724 seconds.
+  path: Assets/Terrain/Sabana.asset
+  artifactKey: Guid(49ebdcd16fc55794caae228d2ea79344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Sabana.asset using Guid(49ebdcd16fc55794caae228d2ea79344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f0fb875a2a4e91b209ee1523905c91e') in 0.006247 seconds
+  Import took 0.011075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2361.463000 seconds.
+  path: Assets/Textures/Terrain
+  artifactKey: Guid(43c6a58d86bffeb4d89de43074f77d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Terrain using Guid(43c6a58d86bffeb4d89de43074f77d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '684bdf60f591b149ce2075905ef3a87a') in 0.003127 seconds
+  Import took 0.009519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.087855 seconds.
+  path: Assets/Textures/Terrain/Deadgrass.terrainlayer
+  artifactKey: Guid(6c98f5f21e45ffc4dba3a7c0c3b59acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Terrain/Deadgrass.terrainlayer using Guid(6c98f5f21e45ffc4dba3a7c0c3b59acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de2c07be8fadd7a4f6a17b663a768bae') in 0.027113 seconds
+  Import took 0.032895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Textures/Terrain/Mud_Normal.tif
+  artifactKey: Guid(5f8429ba02606b34cadca1b13d06b2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Terrain/Mud_Normal.tif using Guid(5f8429ba02606b34cadca1b13d06b2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '946d63fc090f686e7e9c7765ee11c845') in 0.033416 seconds
+  Import took 0.037731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Textures/Terrain/grass_floor.jpg
+  artifactKey: Guid(1bd905429a703bf41aa1a56c5026033a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Terrain/grass_floor.jpg using Guid(1bd905429a703bf41aa1a56c5026033a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e60ff7108c5c699bcd0206c4efa6c47') in 0.016739 seconds
+  Import took 0.021042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Textures/Terrain/mud_oclussion.tif
+  artifactKey: Guid(42f05c5e40723864ea3c2aed504b8357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Terrain/mud_oclussion.tif using Guid(42f05c5e40723864ea3c2aed504b8357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a33f454e82561397dddab141b8a948b1') in 0.015711 seconds
+  Import took 0.020793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Textures/Terrain/grass_floor.jpg
+  artifactKey: Guid(1bd905429a703bf41aa1a56c5026033a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Terrain/grass_floor.jpg using Guid(1bd905429a703bf41aa1a56c5026033a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e60ff7108c5c699bcd0206c4efa6c47') in 0.005873 seconds
+  Import took 0.011031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Textures/Terrain/Mud_albedo.tif
+  artifactKey: Guid(7bcc805be8b3fa94396e892bdbf363d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Terrain/Mud_albedo.tif using Guid(7bcc805be8b3fa94396e892bdbf363d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edfb2f8dee21f16b8f20f435e5df8649') in 0.018315 seconds
+  Import took 0.022573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.113222 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/dirt_albedo.tif
+  artifactKey: Guid(7f3df385222f5b1428f6a156037deb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/dirt_albedo.tif using Guid(7f3df385222f5b1428f6a156037deb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dbf17a8502c98b8f5dae625dbce7582') in 0.019650 seconds
+  Import took 0.024776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/sand_albedo.tif
+  artifactKey: Guid(6bcc65b7c6e3a0b448d7801bfc56842f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/sand_albedo.tif using Guid(6bcc65b7c6e3a0b448d7801bfc56842f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51180587c29e40b1af5d6c3ade410ffe') in 0.017445 seconds
+  Import took 0.022333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/scree_albedo.tif
+  artifactKey: Guid(fcd3993703e7d804bb735613d2a5189d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/scree_albedo.tif using Guid(fcd3993703e7d804bb735613d2a5189d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3e80ebd58b0e73a6031c866ad193353') in 0.016461 seconds
+  Import took 0.022641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/scree_mask.tif
+  artifactKey: Guid(e2a486d7d86a7e8469b15e7ae4d004f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/scree_mask.tif using Guid(e2a486d7d86a7e8469b15e7ae4d004f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e3de5dcc4a7cc55fdd76b47ddbc366') in 0.016389 seconds
+  Import took 0.022816 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000243 seconds.
-  path: Assets/water_normal_secondary.jpg
-  artifactKey: Guid(c7c919f8c93b46a439a6d2dc7e6c7a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/water_normal_secondary.jpg using Guid(c7c919f8c93b46a439a6d2dc7e6c7a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82c1434da7cdf3022cbccb5e0759cc23') in 0.007867 seconds
-  Import took 0.011971 seconds .
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/snow_mask.tif
+  artifactKey: Guid(1a4d9960438e8f242a5155b27813efe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/snow_mask.tif using Guid(1a4d9960438e8f242a5155b27813efe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a959e80b7f417310a04fb5dc0c6faf75') in 0.016007 seconds
+  Import took 0.022629 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.561224 seconds.
-  path: Assets/WaterMat.mat
-  artifactKey: Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WaterMat.mat using Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9134a9d29aa8beaa6fc5620cd8769ec8') in 0.120857 seconds
-  Import took 0.125416 seconds .
+  Time since last request: 0.000256 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/sand_mask.tif
+  artifactKey: Guid(58a4a6310bd23844bae88d82f7916059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/sand_mask.tif using Guid(58a4a6310bd23844bae88d82f7916059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adc60452d7dac68df0a057733ae11756') in 0.017827 seconds
+  Import took 0.022873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/rock_mask.tif
+  artifactKey: Guid(44f7e6aa71506b041ac0a60db8868a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/rock_mask.tif using Guid(44f7e6aa71506b041ac0a60db8868a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3979db3ed1ea2d7f001d66679d678d82') in 0.015068 seconds
+  Import took 0.019616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000612 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/snow_normal.tif
+  artifactKey: Guid(52f2b70b42682a145b20ea5f04fd6af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/snow_normal.tif using Guid(52f2b70b42682a145b20ea5f04fd6af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec91b832cdd5bfbf4188767cbb90909c') in 0.014693 seconds
+  Import took 0.019672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/rock_albedo.tif
+  artifactKey: Guid(f7dd726c93b8f17418ea3be3f6768909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/rock_albedo.tif using Guid(f7dd726c93b8f17418ea3be3f6768909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b8f5a81ea6b8ce2450f0d96f1b478e4') in 0.014297 seconds
+  Import took 0.019544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/moss_mask.tif
+  artifactKey: Guid(ff77b812a1621e74694371cb173618ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/moss_mask.tif using Guid(ff77b812a1621e74694371cb173618ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a115ea3c34595d2137319c1700834a8a') in 0.014760 seconds
+  Import took 0.020207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/screen_normal.tif
+  artifactKey: Guid(703d1f74c69fc95498dcfd0afe8e1d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/screen_normal.tif using Guid(703d1f74c69fc95498dcfd0afe8e1d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9c194079917b0b7838e50ef58dd1658') in 0.018262 seconds
+  Import took 0.025339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/dirt_mask.tif
+  artifactKey: Guid(3c6d7b80bcc59ae448166eacd4ad79b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/dirt_mask.tif using Guid(3c6d7b80bcc59ae448166eacd4ad79b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b652c87e11e56889e704339159ee4693') in 0.018184 seconds
+  Import took 0.023126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/dirt_normal.tif
+  artifactKey: Guid(1ff4687a05ada474ca7eaf3010a871f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/dirt_normal.tif using Guid(1ff4687a05ada474ca7eaf3010a871f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec925857d3fb099797826cf85e22f5e') in 0.008256 seconds
+  Import took 0.012799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/dirt_mask.tif
+  artifactKey: Guid(3c6d7b80bcc59ae448166eacd4ad79b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/dirt_mask.tif using Guid(3c6d7b80bcc59ae448166eacd4ad79b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b652c87e11e56889e704339159ee4693') in 0.010129 seconds
+  Import took 0.014585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/dirt_normal.tif
+  artifactKey: Guid(1ff4687a05ada474ca7eaf3010a871f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/dirt_normal.tif using Guid(1ff4687a05ada474ca7eaf3010a871f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec925857d3fb099797826cf85e22f5e') in 0.008487 seconds
+  Import took 0.013854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/dirt_albedo.tif
+  artifactKey: Guid(7f3df385222f5b1428f6a156037deb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/dirt_albedo.tif using Guid(7f3df385222f5b1428f6a156037deb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dbf17a8502c98b8f5dae625dbce7582') in 0.008698 seconds
+  Import took 0.013118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/moss_normal.tif
+  artifactKey: Guid(67a70a78d678fb649b5c703cd7dc85c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/moss_normal.tif using Guid(67a70a78d678fb649b5c703cd7dc85c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10a400c7f932e56b7005a6a86d5b7f40') in 0.017202 seconds
+  Import took 0.021827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/moss_albedo.tif
+  artifactKey: Guid(43b54d39e0a4c4d47bef645abec127f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/moss_albedo.tif using Guid(43b54d39e0a4c4d47bef645abec127f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd335457cedfcc311cacac8d5eb8772b') in 0.014718 seconds
+  Import took 0.019404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/rock_normal.tif
+  artifactKey: Guid(f45c3bd09301cc64783afc31dfca026b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/rock_normal.tif using Guid(f45c3bd09301cc64783afc31dfca026b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3980e7e4b74e7959b9b6838f8410f7a') in 0.016329 seconds
+  Import took 0.021707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/sand_normal.tif
+  artifactKey: Guid(dd1ad706663683546b665fd5b0286bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/sand_normal.tif using Guid(dd1ad706663683546b665fd5b0286bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc8c9612572faca1356be1aaf524a390') in 0.016195 seconds
+  Import took 0.021790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/snow_albedo.tif
+  artifactKey: Guid(0cc0777f7d4a3444380eb084d74396b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/snow_albedo.tif using Guid(0cc0777f7d4a3444380eb084d74396b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45de2bc6f4a1101930604da54bb2a78') in 0.014073 seconds
+  Import took 0.019156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 783.867858 seconds.
+  path: Assets/Textures/Layers/Mud.terrainlayer
+  artifactKey: Guid(c91e4d99c6cb9454c839d59e9abaf63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Layers/Mud.terrainlayer using Guid(c91e4d99c6cb9454c839d59e9abaf63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3197e4cb34922bd699defe3b9f35fe9') in 0.020891 seconds
+  Import took 0.026114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000799 seconds.
+  path: Assets/Textures/Layers/Mud.terrainlayer
+  artifactKey: Guid(c91e4d99c6cb9454c839d59e9abaf63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Layers/Mud.terrainlayer using Guid(c91e4d99c6cb9454c839d59e9abaf63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3197e4cb34922bd699defe3b9f35fe9') in 0.010853 seconds
+  Import took 0.015299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.737711 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_ridge02.brush
+  artifactKey: Guid(5203e2a4f3ccc3548bde5beb3ca4bdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_ridge02.brush using Guid(5203e2a4f3ccc3548bde5beb3ca4bdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe283126bb73fe3e20adb9495f2d7a2c') in 0.031725 seconds
+  Import took 0.036480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.257474 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_volcano01.brush
+  artifactKey: Guid(e5a2f11e9d7a4da4caf17b3e59800215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_volcano01.brush using Guid(e5a2f11e9d7a4da4caf17b3e59800215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5537866726e203ecc0061bc073c06913') in 0.014784 seconds
+  Import took 0.020117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 219.505218 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_volcano02.brush
+  artifactKey: Guid(5bcc5a77fc677c24c98eb188064d3acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_volcano02.brush using Guid(5bcc5a77fc677c24c98eb188064d3acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '562f291a9f21e9c4c53f07115710fa7b') in 0.016530 seconds
+  Import took 0.021573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2520.763045 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_ridge05.brush
+  artifactKey: Guid(014d61beb3975e849b26bc42fbf17b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_ridge05.brush using Guid(014d61beb3975e849b26bc42fbf17b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95ab6bdee9f966e9ccb1e46b8c7e577c') in 0.018339 seconds
+  Import took 0.023919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.355922 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_ridge06.brush
+  artifactKey: Guid(24a7eabe2ad91f84fbf3a7ecf7b532b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_ridge06.brush using Guid(24a7eabe2ad91f84fbf3a7ecf7b532b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40c12fd0c1a0c42c53da6bf41a276c75') in 0.017422 seconds
+  Import took 0.021996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.248480 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_ridge01.brush
+  artifactKey: Guid(776f9b3da89f9394cac9a53aab9a5eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainBrushes/terrainstamp_ridge01.brush using Guid(776f9b3da89f9394cac9a53aab9a5eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9667318f8e6dea04f2d22047e26b05cf') in 0.015347 seconds
+  Import took 0.020177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 928.233941 seconds.
+  path: Assets/Textures/Terrain/Deadgrass.terrainlayer
+  artifactKey: Guid(6c98f5f21e45ffc4dba3a7c0c3b59acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Terrain/Deadgrass.terrainlayer using Guid(6c98f5f21e45ffc4dba3a7c0c3b59acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27c57d71545935d4fee6a397b856318a') in 0.013893 seconds
+  Import took 0.024757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.208314 seconds.
+  path: Assets/Textures/Layers/Mud.terrainlayer
+  artifactKey: Guid(c91e4d99c6cb9454c839d59e9abaf63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Layers/Mud.terrainlayer using Guid(c91e4d99c6cb9454c839d59e9abaf63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '654a0ffff3f165e524eda651ab267596') in 0.010980 seconds
+  Import took 0.015588 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001564 seconds.
+Registered in 0.001576 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.983 seconds
+- Completed reload, in  1.226 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3122 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3125 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 163.7 MB.
 System memory in use after: 163.8 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3925.
-Total: 2.847100 ms (FindLiveObjects: 0.438800 ms CreateObjectMapping: 0.210100 ms MarkObjects: 2.013000 ms  DeleteObjects: 0.184100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.627785 seconds.
-  path: Assets/WaterMat.mat
-  artifactKey: Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WaterMat.mat using Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0797d38536011d26e676e4a803af5ca2') in 0.131459 seconds
-  Import took 0.136221 seconds .
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3830.
+Total: 3.412100 ms (FindLiveObjects: 0.320100 ms CreateObjectMapping: 0.138000 ms MarkObjects: 2.757300 ms  DeleteObjects: 0.195300 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001454 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.003 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 163.8 MB.
-System memory in use after: 163.9 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3964.
-Total: 2.500800 ms (FindLiveObjects: 0.344400 ms CreateObjectMapping: 0.151700 ms MarkObjects: 1.828900 ms  DeleteObjects: 0.175100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001258 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.989 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 163.8 MB.
-System memory in use after: 163.9 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3967.
-Total: 4.064600 ms (FindLiveObjects: 0.915700 ms CreateObjectMapping: 0.383500 ms MarkObjects: 2.537000 ms  DeleteObjects: 0.226600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001305 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.377 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 163.8 MB.
-System memory in use after: 163.9 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3970.
-Total: 2.725400 ms (FindLiveObjects: 0.334700 ms CreateObjectMapping: 0.166900 ms MarkObjects: 2.041700 ms  DeleteObjects: 0.181400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 613.290346 seconds.
-  path: Assets/water_normal_main.png
-  artifactKey: Guid(c053bca0d8b8ae6479a6b1dafbf89ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/water_normal_main.png using Guid(c053bca0d8b8ae6479a6b1dafbf89ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa7b39fbbba5a6b79148c86cc7591371') in 0.043286 seconds
-  Import took 0.051308 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 79.591213 seconds.
-  path: Assets/WaterMat.mat
-  artifactKey: Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WaterMat.mat using Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '618ae76ac817957442ac135f5f173273') in 0.124988 seconds
-  Import took 0.130515 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 69.310684 seconds.
-  path: Assets/WaterMat.mat
-  artifactKey: Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WaterMat.mat using Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '185c07f2047e5c185497f3b49c79bb07') in 0.014424 seconds
-  Import took 0.019535 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 102.157223 seconds.
-  path: Assets/WaterMat.mat
-  artifactKey: Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WaterMat.mat using Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9cc30ae57d0a0c6230e4b878120bda6') in 0.009635 seconds
-  Import took 0.014818 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.017794 seconds.
-  path: Assets/WaterMat.mat
-  artifactKey: Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WaterMat.mat using Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9cc30ae57d0a0c6230e4b878120bda6') in 0.009872 seconds
-  Import took 0.014444 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 222.912832 seconds.
-  path: Assets/WaterMat.mat
-  artifactKey: Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WaterMat.mat using Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '248bc497ec15945c47de996c0553db62') in 0.012652 seconds
-  Import took 0.018726 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 223.871079 seconds.
-  path: Assets/WaterMat.mat
-  artifactKey: Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WaterMat.mat using Guid(514cf6210d25571479b3b1b347267478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '037a97caa2e09ce8fe801823f021b543') in 0.014527 seconds
-  Import took 0.020478 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001522 seconds.
+Registered in 0.001302 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
@@ -406,16 +518,16 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.987 seconds
+- Completed reload, in  1.084 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 164.0 MB.
-System memory in use after: 164.1 MB.
+System memory in use before: 163.7 MB.
+System memory in use after: 163.9 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 4009.
-Total: 2.830600 ms (FindLiveObjects: 0.336700 ms CreateObjectMapping: 0.170400 ms MarkObjects: 2.134300 ms  DeleteObjects: 0.188300 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3833.
+Total: 2.189400 ms (FindLiveObjects: 0.282300 ms CreateObjectMapping: 0.142200 ms MarkObjects: 1.605200 ms  DeleteObjects: 0.158700 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
