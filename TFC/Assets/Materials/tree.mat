@@ -8,14 +8,14 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: tree
-  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
-  m_ShaderKeywords: _ENVIRONMENTREFLECTIONS_OFF _NORMALMAP _OCCLUSIONMAP _RECEIVE_SHADOWS_OFF
+  m_Shader: {fileID: 4800000, guid: 0ca6dca7396eb48e5849247ffd444914, type: 3}
+  m_ShaderKeywords: _ALPHATEST_ON _NORMALMAP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2000
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: 2450
   stringTagMap:
-    RenderType: Opaque
+    RenderType: TransparentCutout
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -24,6 +24,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 189ce270258cb084980839fcb3736483, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 5, y: 5}
+    - _Branch:
+        m_Texture: {fileID: 2800000, guid: 5e864a144e95db84fbd3674ef6cc6e04, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 2800000, guid: 3ae72b7c5e10c2f459b28b57df53ca5f, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -86,14 +90,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _AO: 2.17
-    - _AlphaClip: 0
+    - _AlphaClip: 1
     - _BaseLight: 1
     - _Blend: 0
     - _BumpScale: 1.72
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
-    - _Cull: 2
-    - _Cutoff: 0.433
+    - _Cull: 0
+    - _Cutoff: 1
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
@@ -116,6 +120,8 @@ Material:
     - _Surface: 0
     - _UVSec: 0
     - _WindQuality: 3
+    - _Wind_Density: 2
+    - _Wind_Stregth: 0.3
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
@@ -126,6 +132,7 @@ Material:
     - _SpecColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
     - _TreeInstanceScale: {r: 1, g: 1, b: 1, a: 1}
+    - _Wind_Movement: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &2436349861944216323
 MonoBehaviour:
