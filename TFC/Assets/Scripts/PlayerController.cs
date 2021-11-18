@@ -14,19 +14,26 @@ public class PlayerController : MonoBehaviour
     private float distanceToGround = 0.1f;
     [SerializeField]
     private Camera _cam;
+    private float _runSpeed;
+
 
     public LayerMask groundLayer;
 
     private Rigidbody _playerRB;
     private float _horiMove, _vertMove, _jumpAxis;      
-    private CapsuleCollider _collider;   
+    private CapsuleCollider _collider;
+   
+    private Animator _modelAnim;
 
     // Start is called before the first frame update
     void Start()
     {
         _playerRB = GetComponent<Rigidbody>();
-        _collider = GetComponent<CapsuleCollider>();
+       _collider = GetComponent<CapsuleCollider>();        
         _cam = FindObjectOfType<Camera>();
+
+        _modelAnim = transform.GetChild(0).GetComponent<Animator>();
+       
     }
 
     // Update is called once per frame
@@ -39,15 +46,25 @@ public class PlayerController : MonoBehaviour
         forward.Normalize();
         right.Normalize();
 
-        forward.y = 0;              //fija el eje y de rotacion pàra que nos e inclineal tranformar el movimiento.      
+        forward.y = 0;              //fija el eje y de rotacion pàra que nos e inclineal transformar el movimiento.      
 
         _horiMove = Input.GetAxis("Horizontal");                                                    
         _vertMove = Input.GetAxis("Vertical");
 
-        Vector3 movement = forward * _vertMove + right * _horiMove; 
-                                                                                                             
-        _playerRB.MovePosition(transform.position + movement * _speed * Time.fixedDeltaTime);   //mueve la posicion del jugador con respecto a la camara
+        Vector3 movement = forward * _vertMove + right * _horiMove;
 
+        if (Input.GetKey(KeyCode.LeftShift))    //run
+        {
+            _runSpeed = _speed * 3;
+            _modelAnim.SetBool("Run", true); 
+            _playerRB.MovePosition(transform.position + movement * _runSpeed * Time.fixedDeltaTime);   
+        }
+        else
+        {
+           _playerRB.MovePosition(transform.position + movement * _speed * Time.fixedDeltaTime);   //mueve la posicion del jugador con respecto a la camara
+            _modelAnim.SetBool("Run", false);
+        }
+        
         //hace que el quaternion del jugador rote con la camara y con el eje de movimiento
         if (movement != new Vector3(0f,0f,0f))      // evita que se resetee la orientacion del Quaternion del jugador a 0,0,0 despues de rotar 
         {
@@ -55,12 +72,32 @@ public class PlayerController : MonoBehaviour
                                                                                                                             //esferica conforme a donde 
                                                                                                                             //apunta el transform del movimiento del jugador + la camara(movement) con una velocidad de rotacion.                                               
         }
+        //ANIMATION
+        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
+        {
+            _modelAnim.SetBool("Walk", true);
+        }
+        else         
+            _modelAnim.SetBool("Walk", false);
+
+        //bucle salto
+        if (IsGrounded())
+        {
+            _modelAnim.SetBool("OnAir", false);
+        }
+        else         
+            _modelAnim.SetBool("OnAir", true);
+        
+        
         //salto del jugador solo si esta tocando el suelo.
         if (Input.GetAxis("Jump") > 0.5 && IsGrounded())
         {
              _playerRB.AddForce(Vector3.up * _jumpForce, ForceMode.Impulse);
+            _modelAnim.SetTrigger("Jump");
         }
-           
+        
+
+
     }
     /// <summary>
     /// Se detecta si el punto del capsule collider mas proximo al limite inferior del mismo esta en contacto con la layer correspondiente.
@@ -70,7 +107,9 @@ public class PlayerController : MonoBehaviour
     bool IsGrounded()
     {
         Vector3 capsuleBottom = new Vector3(_collider.bounds.center.x, _collider.bounds.min.y, _collider.bounds.center.z);
-        bool isGrounded = Physics.CheckCapsule(_collider.bounds.center, capsuleBottom, distanceToGround, groundLayer, QueryTriggerInteraction.Ignore);        
+        bool isGrounded = Physics.CheckCapsule(_collider.bounds.center, capsuleBottom, distanceToGround, groundLayer, QueryTriggerInteraction.Ignore);               
         return isGrounded;
+        
     }
+   
 }
