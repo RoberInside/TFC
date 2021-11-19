@@ -9,36 +9,39 @@ public class PlayerController : MonoBehaviour
     [SerializeField, Range(0, 100)]
     private float _rotSpeed;
     [SerializeField, Range(0, 100)]
-    private float _jumpForce;
+    public float _jumpForce;
     [SerializeField, Range(0, 0.5f)]
     private float distanceToGround = 0.1f;
     [SerializeField]
     private Camera _cam;
     private float _runSpeed;
 
-
     public LayerMask groundLayer;
 
     private Rigidbody _playerRB;
-    private float _horiMove, _vertMove, _jumpAxis;      
+    private float _horiMove, _vertMove;    
     private CapsuleCollider _collider;
    
     private Animator _modelAnim;
+    public Radar _radar;
 
+    
     // Start is called before the first frame update
     void Start()
     {
         _playerRB = GetComponent<Rigidbody>();
        _collider = GetComponent<CapsuleCollider>();        
         _cam = FindObjectOfType<Camera>();
-
         _modelAnim = transform.GetChild(0).GetComponent<Animator>();
+        _radar = FindObjectOfType<Radar>();
+        _jumpForce = 7;
        
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
+        
         //Eje de la camara
         Vector3 forward = _cam.transform.forward;
         Vector3 right = _cam.transform.right;
@@ -51,9 +54,10 @@ public class PlayerController : MonoBehaviour
         _horiMove = Input.GetAxis("Horizontal");                                                    
         _vertMove = Input.GetAxis("Vertical");
 
+        //MOVEMENT        
         Vector3 movement = forward * _vertMove + right * _horiMove;
 
-        if (Input.GetKey(KeyCode.LeftShift))    //run
+        if (Input.GetKey(KeyCode.LeftShift))    //sprint
         {
             _runSpeed = _speed * 3;
             _modelAnim.SetBool("Run", true); 
@@ -72,7 +76,18 @@ public class PlayerController : MonoBehaviour
                                                                                                                             //esferica conforme a donde 
                                                                                                                             //apunta el transform del movimiento del jugador + la camara(movement) con una velocidad de rotacion.                                               
         }
-        //ANIMATION
+        ///MOVEMENT..........................................................
+        
+        //SALTO
+        //salto del jugador solo si esta tocando el suelo.
+        if (Input.GetAxis("Jump") > 0.5 && IsGrounded())
+        {
+             _playerRB.AddForce(Vector3.up * _jumpForce, ForceMode.Impulse);
+            _modelAnim.SetTrigger("Jump");
+        }     
+        //SALTO..............................................................
+
+        //ANIMATIONS
         if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
         {
             _modelAnim.SetBool("Walk", true);
@@ -87,16 +102,13 @@ public class PlayerController : MonoBehaviour
         }
         else         
             _modelAnim.SetBool("OnAir", true);
-        
-        
-        //salto del jugador solo si esta tocando el suelo.
-        if (Input.GetAxis("Jump") > 0.5 && IsGrounded())
-        {
-             _playerRB.AddForce(Vector3.up * _jumpForce, ForceMode.Impulse);
-            _modelAnim.SetTrigger("Jump");
-        }
-        
+        //ANIMATIONS..........................................................
 
+        //Radar
+        //if (Input.GetKeyDown(KeyCode.F))
+        //{
+        //    _radar.RaycastRadar();
+        //}
 
     }
     /// <summary>
@@ -111,5 +123,5 @@ public class PlayerController : MonoBehaviour
         return isGrounded;
         
     }
-   
+    
 }

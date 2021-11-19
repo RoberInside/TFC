@@ -40,7 +40,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Lion
-    second: {fileID: 2100000, guid: 502cc82da2cac7145a0e59a5f0cf1cd6, type: 2}
+    second: {fileID: 2100000, guid: bd897dbd91df5cb498aefcb6d805d431, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
