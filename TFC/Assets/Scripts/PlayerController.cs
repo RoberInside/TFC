@@ -105,10 +105,10 @@ public class PlayerController : MonoBehaviour
         //ANIMATIONS..........................................................
 
         //Radar
-        //if (Input.GetKeyDown(KeyCode.F))
-        //{
-        //    _radar.RaycastRadar();
-        //}
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            _radar.RaycastRadar();
+        }
 
     }
     /// <summary>

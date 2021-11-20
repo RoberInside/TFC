@@ -16,41 +16,30 @@ public class Radar : MonoBehaviour
     {
         _player = FindObjectOfType<PlayerController>();
         _meat = FindObjectOfType<PickUp>();
-        maxDistance = 10f;
-        
-
 
     }
-    public void FixedUpdate()
-    {
+    
+
+    //private void OnDrawGizmos() // pruebas raycast
+    //{        
+
+    //    Gizmos.color = Color.red;
+    //    Gizmos.DrawWireSphere(transform.position, transform.lossyScale.x + maxDistance);
+    //    //Debug.Log("hit");
         
-    }
+    //    Gizmos.color = Color.blue;
+    //    Gizmos.DrawWireSphere(transform.position, transform.lossyScale.x);
 
-    private void OnDrawGizmos()
-    {
-
-        RaycastHit h;
-
-        
-
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, transform.lossyScale.x + maxDistance);
-        //Debug.Log("hit");
-        
-        Gizmos.color = Color.blue;
-        Gizmos.DrawWireSphere(transform.position, transform.lossyScale.x);
-
-        if (Physics.SphereCast(transform.position, transform.lossyScale.x, transform.forward, out h, maxDistance, pickUpLayer, QueryTriggerInteraction.UseGlobal))
-        {
-            Debug.Log("hit");
-           
-        }
-
-    }
+    //}//
     public void RaycastRadar()
     {
-        //RaycastHit hit;
-        //Ray hit = _player.transform.position.;
+        RaycastHit hit;
+        if (Physics.SphereCast(transform.position, transform.lossyScale.x, transform.forward, out hit, maxDistance, pickUpLayer, QueryTriggerInteraction.UseGlobal))
+        {
+            Debug.Log("hit");
+        }
+        else
+            Debug.Log("not hit");
         
     }
 }
