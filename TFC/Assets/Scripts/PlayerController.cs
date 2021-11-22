@@ -17,13 +17,14 @@ public class PlayerController : MonoBehaviour
     private float _runSpeed;
 
     public LayerMask groundLayer;
+    public Radar radar;
+    public PickUp meat;
 
     private Rigidbody _playerRB;
     private float _horiMove, _vertMove;    
     private CapsuleCollider _collider;
    
     private Animator _modelAnim;
-    public Radar _radar;
 
     
     // Start is called before the first frame update
@@ -33,10 +34,11 @@ public class PlayerController : MonoBehaviour
        _collider = GetComponent<CapsuleCollider>();        
         _cam = FindObjectOfType<Camera>();
         _modelAnim = transform.GetChild(0).GetComponent<Animator>();
-        _radar = FindObjectOfType<Radar>();
-        _jumpForce = 7;
-       
+        radar = FindObjectOfType<Radar>();
+        meat = FindObjectOfType<PickUp>();
+        _jumpForce = 7;       
     }
+    
 
     // Update is called once per frame
     void FixedUpdate()
@@ -80,15 +82,21 @@ public class PlayerController : MonoBehaviour
         
         //SALTO
         //salto del jugador solo si esta tocando el suelo.
-        if (Input.GetAxis("Jump") > 0.5 && IsGrounded())
+        if (Input.GetAxis("Jump") > 0.4 && IsGrounded())
         {
              _playerRB.AddForce(Vector3.up * _jumpForce, ForceMode.Impulse);
             _modelAnim.SetTrigger("Jump");
-        }     
+        }
+        if (meat.count == 5)
+        {
+            distanceToGround = 0.2f;
+        }
+        else
+            distanceToGround = 0.1f;
         //SALTO..............................................................
 
         //ANIMATIONS
-        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.S))
         {
             _modelAnim.SetBool("Walk", true);
         }
@@ -107,7 +115,7 @@ public class PlayerController : MonoBehaviour
         //Radar
         if (Input.GetKeyDown(KeyCode.F))
         {
-            _radar.RaycastRadar();
+            radar.RaycastRadar();
         }
 
     }
@@ -121,6 +129,7 @@ public class PlayerController : MonoBehaviour
         Vector3 capsuleBottom = new Vector3(_collider.bounds.center.x, _collider.bounds.min.y, _collider.bounds.center.z);
         bool isGrounded = Physics.CheckCapsule(_collider.bounds.center, capsuleBottom, distanceToGround, groundLayer, QueryTriggerInteraction.Ignore);               
         return isGrounded;
+        
         
     }
     

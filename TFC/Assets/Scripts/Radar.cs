@@ -6,7 +6,10 @@ public class Radar : MonoBehaviour
 {
     PlayerController _player;
     PickUp _meat;
-    public float maxDistance = 10f;
+    public float maxDistance;
+    private float radius;
+    private Vector3 origin;
+    private Vector3 direction;
 
     public LayerMask pickUpLayer;
     
@@ -18,28 +21,33 @@ public class Radar : MonoBehaviour
         _meat = FindObjectOfType<PickUp>();
 
     }
-    
+
 
     //private void OnDrawGizmos() // pruebas raycast
-    //{        
+    //{
+    //    RaycastRadar();
+       
 
-    //    Gizmos.color = Color.red;
-    //    Gizmos.DrawWireSphere(transform.position, transform.lossyScale.x + maxDistance);
-    //    //Debug.Log("hit");
-        
     //    Gizmos.color = Color.blue;
-    //    Gizmos.DrawWireSphere(transform.position, transform.lossyScale.x);
+    //    Gizmos.DrawWireSphere(origin, radius);
+        
+    //    Gizmos.color = Color.white;
+    //    Gizmos.DrawLine(origin, transform.position);
 
     //}//
     public void RaycastRadar()
     {
         RaycastHit hit;
-        if (Physics.SphereCast(transform.position, transform.lossyScale.x, transform.forward, out hit, maxDistance, pickUpLayer, QueryTriggerInteraction.UseGlobal))
-        {
-            Debug.Log("hit");
+
+        radius = transform.lossyScale.x + (maxDistance - transform.lossyScale.x);
+        origin = transform.position + new Vector3(0, maxDistance, 0);
+        direction = new Vector3(0, -1, 0);
+
+        if (Physics.SphereCast(origin, radius, direction, out hit, maxDistance, pickUpLayer, QueryTriggerInteraction.UseGlobal))
+        {            
+            Debug.Log("hit");            
         }
         else
-            Debug.Log("not hit");
-        
+            Debug.Log("not hit");        
     }
 }
