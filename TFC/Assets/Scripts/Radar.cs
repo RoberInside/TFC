@@ -11,6 +11,8 @@ public class Radar : MonoBehaviour
     private Vector3 origin;
     private Vector3 direction;
 
+
+    public FadingMenu _meatInfo;
     public LayerMask pickUpLayer;
     
     
@@ -19,6 +21,10 @@ public class Radar : MonoBehaviour
     {
         _player = FindObjectOfType<PlayerController>();
         _meat = FindObjectOfType<PickUp>();
+        _meatInfo = GameObject.Find("RadarInfo").transform.GetChild(0).GetComponent<FadingMenu>();
+        //_meatInfo.gameObject.SetActive(false);
+        //_meatInfo = FindObjectOfType<FadingMenu>();
+        //_meatInfo.gameObject.SetActive(false);
 
     }
 
@@ -45,9 +51,16 @@ public class Radar : MonoBehaviour
 
         if (Physics.SphereCast(origin, radius, direction, out hit, maxDistance, pickUpLayer, QueryTriggerInteraction.UseGlobal))
         {            
-            Debug.Log("hit");            
+            //Debug.Log("hit");
+            _meatInfo.fadeTextRadar.text = "Smelling one or more meat pieces nerby!";
+            StartCoroutine(_meatInfo.fadingWaitRadar(2.5f));
+            
         }
         else
-            Debug.Log("not hit");        
+        {
+            //Debug.Log("not hit");        
+            _meatInfo.fadeTextRadar.text = "Nothing nerby";
+            StartCoroutine(_meatInfo.fadingWaitRadar(2.5f));
+        }
     }
 }

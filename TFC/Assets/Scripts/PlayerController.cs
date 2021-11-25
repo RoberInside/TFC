@@ -18,13 +18,15 @@ public class PlayerController : MonoBehaviour
 
     public LayerMask groundLayer;
     public Radar radar;
-    public PickUp meat;
 
+    private GameManager _gM;
+    private PauseMenu _pM;
     private Rigidbody _playerRB;
     private float _horiMove, _vertMove;    
     private CapsuleCollider _collider;
    
     private Animator _modelAnim;
+   
 
     
     // Start is called before the first frame update
@@ -35,7 +37,8 @@ public class PlayerController : MonoBehaviour
         _cam = FindObjectOfType<Camera>();
         _modelAnim = transform.GetChild(0).GetComponent<Animator>();
         radar = FindObjectOfType<Radar>();
-        meat = FindObjectOfType<PickUp>();
+        _gM = FindObjectOfType<GameManager>();
+        _pM = FindObjectOfType<PauseMenu>();
         _jumpForce = 7;       
     }
     
@@ -85,9 +88,10 @@ public class PlayerController : MonoBehaviour
         if (Input.GetAxis("Jump") > 0.4 && IsGrounded())
         {
              _playerRB.AddForce(Vector3.up * _jumpForce, ForceMode.Impulse);
+            
             _modelAnim.SetTrigger("Jump");
         }
-        if (meat.count == 5)
+        if (_gM.meatCount == 5)
         {
             distanceToGround = 0.2f;
         }
@@ -112,11 +116,26 @@ public class PlayerController : MonoBehaviour
             _modelAnim.SetBool("OnAir", true);
         //ANIMATIONS..........................................................
 
-        //Radar
+        //RADAR
         if (Input.GetKeyDown(KeyCode.F))
         {
-            radar.RaycastRadar();
+            radar.RaycastRadar();            
         }
+
+        //PAUSE MENU
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            Debug.Log("escape");
+            if (!_pM.menuPausa.activeSelf)
+            {
+                _pM.pauseActive = true;
+            }
+            else
+            {
+                _pM.pauseActive = false;
+            }
+        }
+        _pM.menuPausa.SetActive(_pM.pauseActive);
 
     }
     /// <summary>
