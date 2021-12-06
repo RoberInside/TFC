@@ -575,7 +575,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 68074275}
-  m_LocalRotation: {x: 0.12039032, y: 0.38965648, z: -0.051459573, w: 0.91160625}
+  m_LocalRotation: {x: -0.03201804, y: 0.9612904, z: -0.12695166, w: -0.24244364}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 3.6522229, y: 3.6522224, z: 3.652223}
   m_Children: []
@@ -1884,7 +1884,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 62}
+  m_AnchoredPosition: {x: 0, y: 36}
   m_SizeDelta: {x: 107.2237, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &394611485
@@ -3743,7 +3743,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -97}
+  m_AnchoredPosition: {x: 0, y: -60}
   m_SizeDelta: {x: 85.3722, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &906631012
@@ -4294,7 +4294,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1050509972}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 304.42865, y: 185.07202, z: 320.16373}
+  m_LocalPosition: {x: 324.58575, y: 185.07202, z: 346.62473}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1970094667}
@@ -4417,8 +4417,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -572.2642, y: -150.7013}
+  m_AnchoredPosition: {x: 0, y: 54.72}
+  m_SizeDelta: {x: -572.2642, y: -260.14}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1070525650
 MonoBehaviour:
@@ -4646,7 +4646,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 14.999996}
+  m_AnchoredPosition: {x: 0, y: -9}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1083881910
@@ -5205,10 +5205,10 @@ RectTransform:
   m_Father: {fileID: 1070525649}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 116}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1210854534
 MonoBehaviour:
@@ -6610,7 +6610,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Find all the meat pieces so you can jump enough and cross the river!
+  m_text: use "WASD" to move, "LShift" to run and "SPACEBAR" to jump!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b0286529869f99642adac6ea80869a3a, type: 2}
   m_sharedMaterial: {fileID: -2978027886950525716, guid: b0286529869f99642adac6ea80869a3a, type: 2}
@@ -33726,8 +33726,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1759138983}
-  m_LocalRotation: {x: 0.14506386, y: 0.3881179, z: -0.06200601, w: 0.9080067}
-  m_LocalPosition: {x: 0, y: -0.040008545, z: 0}
+  m_LocalRotation: {x: -0.038580008, y: 0.95749474, z: -0.15296994, w: -0.24148639}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1283355271}
@@ -34527,7 +34527,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1970094665}
-  m_LocalRotation: {x: 0.12153763, y: 0.3895914, z: -0.051949978, w: 0.911454}
+  m_LocalRotation: {x: -0.032323174, y: 0.96112984, z: -0.12816153, w: -0.2424032}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -34600,7 +34600,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1974427706}
-  m_LocalRotation: {x: 0.1190349, y: 0.38973254, z: -0.050880216, w: 0.91178423}
+  m_LocalRotation: {x: -0.03165756, y: 0.96147805, z: -0.12552239, w: -0.24249099}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -35053,7 +35053,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Smelling one or more meat pieces nerby!
+  m_text: Smelling one or more meat pieces nearby!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b0286529869f99642adac6ea80869a3a, type: 2}
   m_sharedMaterial: {fileID: -2978027886950525716, guid: b0286529869f99642adac6ea80869a3a, type: 2}

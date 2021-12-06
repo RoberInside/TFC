@@ -32,11 +32,11 @@ public class Radar : MonoBehaviour
     //private void OnDrawGizmos() // pruebas raycast
     //{
     //    RaycastRadar();
-       
+
 
     //    Gizmos.color = Color.blue;
     //    Gizmos.DrawWireSphere(origin, radius);
-        
+
     //    Gizmos.color = Color.white;
     //    Gizmos.DrawLine(origin, transform.position);
 
@@ -52,14 +52,14 @@ public class Radar : MonoBehaviour
         if (Physics.SphereCast(origin, radius, direction, out hit, maxDistance, pickUpLayer, QueryTriggerInteraction.UseGlobal))
         {            
             //Debug.Log("hit");
-            _meatInfo.fadeTextRadar.text = "Smelling one or more meat pieces nerby!";
+            _meatInfo.fadeTextRadar.text = "Smelling one or more meat pieces nearby!";
             StartCoroutine(_meatInfo.fadingWaitRadar(2.5f));
             
         }
         else
         {
             //Debug.Log("not hit");        
-            _meatInfo.fadeTextRadar.text = "Nothing nerby";
+            _meatInfo.fadeTextRadar.text = "Nothing nearby";
             StartCoroutine(_meatInfo.fadingWaitRadar(2.5f));
         }
     }

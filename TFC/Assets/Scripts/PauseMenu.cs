@@ -22,12 +22,13 @@ public class PauseMenu : MonoBehaviour
         resumeBttn = GameObject.Find("MenuPausa").transform.GetChild(1).GetComponent<Button>();
         mMenuBttn = GameObject.Find("MenuPausa").transform.GetChild(2).GetComponent<Button>();
         quitBttn = GameObject.Find("MenuPausa").transform.GetChild(3).GetComponent<Button>();
+        //Cursor.visible = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        Cursor.visible = pauseActive;
     }
     public void Resume()
     {

@@ -46,7 +46,6 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        
         //Eje de la camara
         Vector3 forward = _cam.transform.forward;
         Vector3 right = _cam.transform.right;
@@ -125,7 +124,7 @@ public class PlayerController : MonoBehaviour
         //PAUSE MENU
         if (Input.GetKey(KeyCode.Escape))
         {
-            Debug.Log("escape");
+            //Debug.Log("escape");
             if (!_pM.menuPausa.activeSelf)
             {
                 _pM.pauseActive = true;
@@ -135,6 +134,7 @@ public class PlayerController : MonoBehaviour
                 _pM.pauseActive = false;
             }
         }
+        Cursor.visible = _pM.pauseActive;
         _pM.menuPausa.SetActive(_pM.pauseActive);
 
     }
